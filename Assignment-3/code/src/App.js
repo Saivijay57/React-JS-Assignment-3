@@ -1,13 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+// import './components/Header'
+import Header from './components/Header'
+import CustomerInfo from './components/CustomerInfo'
+import OrderInfo from './components/OrderInfo';
+import ProductList from './components/ProductList';
 
-
-var arrow="<"
+const obj = {
+  Name:"Alan ford",
+  EmployeeID:"00005152",
+  Appointment:"9:00 (24-05-2016)",
+  Email:"alan.form@gmail.com",
+  phone:"+31123456789",
+  Status:"In progress",
+  Door:"Mark",
+  Time:"10:30",
+  date:"(25-05-2016)"
+}
 function App() {
   return (
     <div className="site-container">
     {/* Start Your code here */}
+    <Header Name = {obj.Name} EmployeeID={obj.EmployeeID}/>
+    <CustomerInfo Appointment={obj.Appointment} Email={obj.Email} phone={obj.phone} />
+    <OrderInfo  Status={obj.Status} Door={obj.Door} Time={obj.Time} date={obj.date}/>
+    <ProductList />
     </div>
   );
 }
