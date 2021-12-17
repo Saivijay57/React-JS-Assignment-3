@@ -16,7 +16,9 @@ export default function ProductList() {
                     <p className='product'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum, consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, eveniet! Lorem ipsum hello world</p>
                 </div>
                 <p className='arrow2'>
+                    <a href="/">
                     {arrow2}
+                    </a>
                 </p>
             </div>
         </>
