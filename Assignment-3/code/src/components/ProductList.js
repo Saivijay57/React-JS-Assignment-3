@@ -4,9 +4,9 @@ export default function ProductList(props) {
     return (
         <>
             <div className='product-list'>
-                    <div className='defaultCheckbox'>
-                        <input type="checkbox" className='checkbox' name="checkBox1"></input>
-                    </div>
+                <div className='defaultCheckbox'>
+                    <input type="checkbox" className='checkbox' name="checkBox1"></input>
+                </div>
                 <div>
                     <img src="https://www.w3schools.com/howto/img_avatar.png" width={150} height={150} alt="" />
                 </div>
@@ -16,7 +16,7 @@ export default function ProductList(props) {
                 </div>
                 <p className='arrow2'>
                     <a href="/">
-                    {props.arrow1}
+                        {props.arrow1}
                     </a>
                 </p>
             </div>

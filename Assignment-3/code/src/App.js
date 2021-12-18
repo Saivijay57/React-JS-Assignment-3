@@ -22,11 +22,10 @@ const obj = {
 function App() {
   return (
     <div className="site-container">
-    {/* Start Your code here */}
-    <Header Name = {obj.Name} EmployeeID={obj.EmployeeID} arrow={obj.arrow}/>
-    <CustomerInfo Appointment={obj.Appointment} Email={obj.Email} phone={obj.phone} />
-    <OrderInfo  Status={obj.Status} Door={obj.Door} Time={obj.Time} date={obj.date}/>
-    <ProductList arrow1 = {obj.arrow1}/>
+      <Header Name = {obj.Name} EmployeeID={obj.EmployeeID} arrow={obj.arrow}/>
+      <CustomerInfo Appointment={obj.Appointment} Email={obj.Email} phone={obj.phone} />
+      <OrderInfo  Status={obj.Status} Door={obj.Door} Time={obj.Time} date={obj.date}/>
+      <ProductList arrow1 = {obj.arrow1}/>
     </div>
   );
 }
