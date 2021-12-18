@@ -6,7 +6,7 @@ export default function customerInfo(props) {
         <div>
             <div className='customer-info'>
                 <div>
-                    <p><b>Appointment </b>{props.Appointment}</p>
+                    <p><b>Appointment On</b>{props.Appointment}</p>
                     <p><b>Email:</b> {props.Email}</p>
                     <p><b>Phone</b>{props.phone}</p>
                 </div>

@@ -1,7 +1,6 @@
 import "./ProductList.css";
 import React from 'react'
-var arrow2 = ">"
-export default function ProductList() {
+export default function ProductList(props) {
     return (
         <>
             <div className='product-list'>
@@ -17,7 +16,7 @@ export default function ProductList() {
                 </div>
                 <p className='arrow2'>
                     <a href="/">
-                    {arrow2}
+                    {props.arrow1}
                     </a>
                 </p>
             </div>
