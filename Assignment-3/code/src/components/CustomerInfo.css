@@ -1,0 +1,9 @@
+.customer-info{
+    width: 98%;
+    border:2px solid rgb(224, 220, 220);
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    border-radius: 5px;
+}
